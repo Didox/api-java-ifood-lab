@@ -12,4 +12,8 @@ public class Home {
   public String getDocumentacaoJson(){
     return "/api-docs";
   }
+
+  public String getGerarAdmInicial(){
+    return "/gerar-adm";
+  }
 }
