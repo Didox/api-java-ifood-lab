@@ -6,6 +6,6 @@ public class Home {
   }
 
   public String getDocumentacao(){
-    return "TODO: Logo irei colocar o swagger nesta API";
+    return "/api-docs";
   }
 }
