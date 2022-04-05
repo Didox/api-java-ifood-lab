@@ -5,7 +5,11 @@ public class Home {
     return "Bem vindo a minha primeira API";
   }
 
-  public String getDocumentacao(){
+  public String getDocumentacaoUI(){
+    return "/swagger-ui/index.html";
+  }
+
+  public String getDocumentacaoJson(){
     return "/api-docs";
   }
 }
